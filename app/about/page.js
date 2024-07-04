@@ -1,7 +1,9 @@
-export default page=()=>{
+const page=()=>{
     return (<>
 
     About Page
     
     </>)
 }
+
+export default page
