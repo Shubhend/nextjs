@@ -5,7 +5,7 @@ export async function middleware(req) {
     // Example: Redirecting from /old-route to /new-route
     if (url.pathname === '/signup') {
       url.pathname = '/Login';
-     // return NextResponse.redirect(url);
+      return NextResponse.redirect(url);
     }
   
     return NextResponse.next();

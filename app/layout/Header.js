@@ -7,7 +7,8 @@ const nav = [
     { name:"Home", href:"/" },
     { name:"Login", href:"/Login" },
     { name:"Signup", href:"/signup" },
-    { name:"About", href:"/about" }
+    { name:"About", href:"/about" },
+    { name:"Dashboard", href:"/DashBoard" }
 ]
 
 const Header = () => {
